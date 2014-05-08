@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/samsung_s5k4ecgx_ricco.dat:system/usr/share/camera/config_file/samsung_s5k4ecgx_ricco.dat \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/samsung_s5k6aafx13.dat:system/usr/share/camera/config_file/samsung_s5k6aafx13.dat \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/samsung_s5k6aafx13_rev00.dat:system/usr/share/camera/config_file/samsung_s5k6aafx13_rev00.dat \
-    $(LOCAL_PATH)//system/usr/share/camera/config_file/siliconfile_sr030pc50.dat:system/usr/share/camera/config_file/siliconfile_sr030pc50.dat \
+    $(LOCAL_PATH)/system/usr/share/camera/config_file/siliconfile_sr030pc50.dat:system/usr/share/camera/config_file/siliconfile_sr030pc50.dat \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/siliconfile_sr030pc50_codina_tmo.dat:system/usr/share/camera/config_file/siliconfile_sr030pc50_codina_tmo.dat \
     $(LOCAL_PATH)//system/usr/share/camera/config_file/siliconfile_sr030pc50_hendrix.dat:system/usr/share/camera/config_file/siliconfile_sr030pc50_hendrix.dat \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/siliconfile_sr030pc50_kyle.dat:system/usr/share/camera/config_file/siliconfile_sr030pc50_kyle.dat \
@@ -100,8 +100,8 @@ PRODUCT_COPY_FILES += \
 # Display
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so \
-    $(LOCAL_PATH)/system/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so \
-    $(LOCAL_PATH)/system/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so
+    $(LOCAL_PATH)/system/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so
+#    $(LOCAL_PATH)/system/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so
 
 # GPS
 PRODUCT_COPY_FILES += \
@@ -174,7 +174,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)/system/lib/libshmnetlnk.so:system/lib/libshmnetlnk.so \
     $(LOCAL_PATH)/system/lib/libsms_server.so:system/lib/libsms_server.so \
-    $(LOCAL_PATH)/system/lib/libstecom.so:system/lib/libstecom.so \
+#    $(LOCAL_PATH)/system/lib/libstecom.so:system/lib/libstecom.so \
     $(LOCAL_PATH)/system/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
     $(LOCAL_PATH)/system/lib/libsterc.so:system/lib/libsterc.so \
     $(LOCAL_PATH)/system/lib/libtee.so:system/lib/libtee.so \
