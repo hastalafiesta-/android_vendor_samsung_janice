@@ -16,12 +16,11 @@ ifeq ($(PRODUCT_DEVICE),janice)
 $(call inherit-product, vendor/samsung/u8500-common/janice/janice-vendor-blobs.mk)
 endif
 ifeq ($(PRODUCT_DEVICE),janicep)
-$(call inherit-product, vendor/samsung/u8500-common/janicep/janicep-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/u8500-common/janice/janicep-vendor-blobs.mk)
 endif
 ifeq ($(PRODUCT_DEVICE),codina)
 $(call inherit-product, vendor/samsung/u8500-common/codina/codina-vendor-blobs.mk)
 endif
-
-# Goo IM Auto Updater
-$(call inherit-product, vendor/samsung/u8500-common/version.mk)
-# Account is STEAndroid!
+ifeq ($(PRODUCT_DEVICE),codinap)
+$(call inherit-product, vendor/samsung/u8500-common/codina/codinap-vendor-blobs.mk)
+endif
