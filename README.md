@@ -1,4 +1,4 @@
-android_vendor_samsung_u8500-common
+android_vendor_samsung_janice
 ===================================
 
-Vendor repo for Samsung U8500 devices
+Vendor repo for Janice

@@ -18,9 +18,3 @@ endif
 ifeq ($(PRODUCT_DEVICE),janicep)
 $(call inherit-product, vendor/samsung/u8500-common/janice/janicep-vendor-blobs.mk)
 endif
-ifeq ($(PRODUCT_DEVICE),codina)
-$(call inherit-product, vendor/samsung/u8500-common/codina/codina-vendor-blobs.mk)
-endif
-ifeq ($(PRODUCT_DEVICE),codinap)
-$(call inherit-product, vendor/samsung/u8500-common/codina/codinap-vendor-blobs.mk)
-endif
